@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birth Day Of Friends</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+	<section>
+		<nav class="navbar">
+		  <a href="index.html" class="navbar-brand">FBB</a>
+		  <form class="form-inline">
+		    <input class="form-control mr-sm-2" type="search" placeholder="Friends' name" aria-label="Search">
+		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</nav>
+	</section>
+	<section id="design">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="bell">
+					<i id="iconbell" onclick="change('iconbell')" class="far fa-bell icon bell1" title="Hit it to be notified of all birthdates"></i>
+				</div>
+				<div class="contentmy">	
+					<h1>Friends' Birthday Book</h1>
+					<p>
+						Welcome to the "Friends Birthday Book". We keep and notify the birthdates of your close ones.You can add the Birthdate of your close ones so that we you will never miss that date.
+					</p>
+					<br>
+					<p class="circle">
+					<a href="#" data-toggle="modal" data-target="#exampleModal">
+						<i class="fas fa-user-plus add"></i>
+					</a>
+					</p>
+				</div>	
+			</div>
+		</div>		
+	</section>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">ADD Info of your friend</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	         <form>
+	         	Name: &nbsp &nbsp &nbsp <input type="text" name="Name" required="required"><br><br>
+	         	Birthdate: &nbsp<input type="date" name="" required="required">
+	         </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="submit" class="btn btn-primary">Save</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  
+ <!-- Ballons and list and wishes -->
+
+ 	<section id="wishes">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-4">
+ 					<div class="ribbon">
+ 						<img src="./img/r2.png" height="400" width="400">
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+
+ 					<ul class="list-group">
+ 					  <li class="list-group-item d-flex justify-content-between align-items-center activemy">
+ 					    Upcoming Birthday's <i class="fas fa-birthday-cake"></i>
+ 					    
+ 					  </li>
+ 					  <li class="list-group-item d-flex justify-content-between align-items-center">
+ 					    Abhishek Subedi
+ 					    <span class="badge badge-warning badge-pill">2 days</span>
+ 					  </li>
+ 					  <li class="list-group-item d-flex justify-content-between align-items-center">
+ 					    Sagar Acharya
+ 					    <span class="badge badge-warning badge-pill">10 days</span>
+ 					  </li>
+ 					  <li class="list-group-item d-flex justify-content-between align-items-center">
+ 					    Prashant Ghimire
+ 					    <span class="badge badge-warning badge-pill"> 324 days</span>
+ 					  </li>
+ 					  <li class="list-group-item d-flex justify-content-between align-items-center">
+ 					    Umesh Khatiwada
+ 					    <span class="badge badge-warning badge-pill">345 days</span>
+ 					  </li>
+ 					  <li class="list-group-item bichma">
+ 					    <a class="link" href="birthday_list.html">Watch Full List</a>
+ 					  </li>
+ 					</ul>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<!--<div class="ajako">
+						<h1>
+						  <span>T</span>
+						  <span>o</span>
+						  <span>d</span>
+						  <span>a</span>
+						  <span>y</span>
+						  <span>s</span>
+						</br>
+						  <span>B</span>
+						  <span>'</span>
+						  <span>D</span>
+						  <span>a</span>
+						  <span>y</span>
+						</h1>	
+						<img src="./img/liesel.jpg" width="90" height="90" class="todaybirth">
+					</div> -->
+					<div class="card">
+					  <img src="./img/liesel.jpg" class="card-img-top pad-2 rounded-pill" height="250" width="100"  alt="...">
+					  <div class="card-body">
+					    <h1 class="card-title">
+						  <span>T</span>
+						  <span>o</span>
+						  <span>d</span>
+						  <span>a</span>
+						  <span>y</span>
+						  <span>s </span>
+						  <span>B</span>
+						  <span>'</span>
+						  <span>D</span>
+						  <span>a</span>
+						  <span>y</span>
+						</h1>
+					  </div>
+					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</section>
+
+ 	<section id="extra">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-12 cen">
+ 					<p class="mid-text font-weight-bolder">Utilitarians</p>
+ 				</div>
+ 			</div>
+
+ 			<div class="row">
+ 				<div class="col-md-4">
+ 					<div class="card">
+ 					 <a href="https://www.shutterfly.com/ideas/happy-birthday-quotes/" target="_blank">
+ 					  <img src="./img/quotes1.jpg" class="card-img-top card-img-top-scale" height="234.55" alt="...">
+ 					 </a>
+ 					  <div class="card-body">
+ 					    <h5 class="card-title">Best Quotes</h5>
+ 					    <p class="card-text">Wish your friend with heart-warming quotes.</p>
+ 					    <a href="https://www.shutterfly.com/ideas/happy-birthday-quotes/" target="_blank" class="btn btn-warning white">Quotes..</a>
+ 					  </div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="card">
+ 					 <a href="https://www.imnepal.com/places-birthday-party-kathmandu-nepal-celebration/" target="_blank">
+ 					  <img src="./img/pv.jpg" class="card-img-top card-img-top-scale" alt="...">
+ 					 </a> 
+ 					  <div class="card-body">
+ 					    <h5 class="card-title">Party Venue</h5>
+ 					    <p class="card-text">Check out some party venues for the birthday celebration.</p>
+ 					    <a href="https://www.imnepal.com/places-birthday-party-kathmandu-nepal-celebration/" target="_blank" class="btn btn-warning white">Venues..</a>
+ 					  </div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<div class="card">
+ 					 <a href="https://www.tripadvisor.com/Restaurants-g293890-zfp16-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html" target="_blank">
+ 					  <img src="./img/re1.jpg" class="card-img-top card-img-top-scale" alt="...">
+ 					 </a>
+ 					  <div class="card-body">
+ 					    <h5 class="card-title">Restaurants</h5>
+ 					    <p class="card-text">Visit some lovely restaurants to celebrate the birthday.</p>
+ 					    <a href="https://www.magicalnepal.com/expat-guide/27-best-restaurants-and-cafe-in-kathmandu/" target="_blank" class="btn btn-warning white">Restaurants..#1</a>
+ 					    <a href="https://www.tripadvisor.com/Restaurants-g293890-zfp16-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html" target="_blank" class="btn btn-warning white">Restaurants..#2</a>
+ 					  </div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 	</section>
+
+ 	<footer>
+ 		<div class="container-fluid">
+ 			<div class="row snow">
+ 				<div class="col-md-4 first"><a href="https://www.facebook.com/College-Note-2230803183874835/"><i class="fab fa-facebook-f"></i></a>
+ 									  <a class="cn" href="https://collegenote.pythonanywhere.com/">CN</a></div>
+ 				<div class="col-md-4"></div>
+ 				<div class="col-md-4 lasty">&copy SAB Designs 2019</div>
+ 			</div>
+ 		</div>
+ 	</footer>
+
+<script type="text/javascript" src="./js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
